@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build-m": "vue-cli-service build --modern",
+    "lint": "vue-cli-service lint --fix"
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "hexo-helper-live2d": "^3.1.1",
+    "live2d-widget-model-haru": "^1.0.5",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
